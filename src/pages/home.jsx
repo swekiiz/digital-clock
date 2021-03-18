@@ -24,15 +24,12 @@ const Home = () => {
   }, []);
   const { clock, ampm } = timeFormat(time);
   return (
-    <div
-      className="flex v-screen h-screen bg-black text-white text-center m-auto flex-col justify-center font-light tracking-widest"
-      style={{ fontSize: "200px" }}
-    >
+    <div className="flex v-screen h-screen bg-black text-white text-center m-auto flex-col justify-center font-light tracking-widest text-big md:text-bigest">
       <div className="relative">
         <h1>{clock}</h1>
         <span
-          className="absolute text-gray-100"
-          style={{ fontSize: "100px", right: "40px", top: "-75px" }}
+          className="absolute text-gray-100 text-8xl md:text-mini"
+          style={{ right: "40px", top: "-75px" }}
         >
           {ampm}
         </span>
