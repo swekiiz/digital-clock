@@ -1,3 +1,6 @@
+## Link to gh-pages
+[Click here](https://swekiiz.github.io/digital-clock/) to view it in the browser.
+
 ### `yarn start`
 
 Runs the app in the development mode.\
